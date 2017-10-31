@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Lato, sans-serif;
+}
+header{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+main{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.first-p{
+    text-align: center;
+}
+i{
+    display: block;
+}
+.first-p{
+    width: 70%;
+    margin: auto;
+}
+.fa-star{
+    color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.cntr,span{
+    font-weight: bold;
+}
+

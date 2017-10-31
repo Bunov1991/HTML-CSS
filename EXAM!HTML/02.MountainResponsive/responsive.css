@@ -1,0 +1,52 @@
+@media all and (max-width: 480px) {
+
+    .nav-item{
+        width: 100%;
+    }
+    .menu span{
+        margin-left: 5px;
+    }
+    .menu ul{
+        display: none;
+    }
+    header{
+        width: 100%;
+    }
+    header h1{
+        margin-left: -156px;
+    }
+    header p {
+        display: inline;
+
+    }
+    .headings{
+        display: inline;
+    }
+    .paragraph{
+        display: inline;
+    }
+    .views{
+        flex-direction: column;
+    }
+    #second-heading{
+        display: flex;
+        padding-top: 300px;
+
+    }
+    .image-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .our-team{
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .our-team section{
+        text-align: center;
+        align-content: center;
+
+    }
+
+
+}

@@ -1,0 +1,36 @@
+@media all and (max-width: 481px){
+    .top-button-container {
+        display: none;
+
+    }
+    .header-wrapper{
+        background: #333;
+        display: flex;
+        justify-content: center;
+    }
+    .header-subtitle{
+        display: none;
+    }
+    .header-title{
+        width: 95%;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .travel-title,.travel-subtitle
+    {
+        width: 100%;
+    }
+    .travel-title-container{
+        width: 100%;
+    }
+    .travel-section>*{
+        max-width: 100%;
+    }
+    .footer-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
